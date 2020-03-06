@@ -1,0 +1,376 @@
+testing
+
+- testing the s/w 
+
+* quality- customer perspective 
+* meeting the customer reqs
+* defect free product ER=AR
+
+ways in testing 
+
+*manual
+*automation 
+
+dev---> appln--->testers--> test cases * excel appln
+* test management tool ( QC,ALM)
+
+Prep check ER=AR 
+
+----> ER<>AR---> defects---> dev(rectify)--->appln -->testers
+
+
+
+
+Automation 
+dev--->appln--->testers---> tools(robot)instructions has to be given by the testers ---> test scripts (ER=AR)---> ER<>AR---> defects---> dev(rectify)--->appln -->testers
+
+
+tools 
+* functional testing tool- testing functional reqs - testing for behavior /functional char 
+
+eg- HP - QTP/UFT 
+    IBM - RFT 
+    ThoughtWorks- Selenium (open source tool)
+    google- Selenium Webdriver 
+    Borland - Silk test 
+
+
+* non -functional testing tool- testing for non functional reqs- invisible,surrounding the functional reqs to work
+
+  HP- LR
+  cyrano- OpenSTA(open source tool)
+  IBM - RPT
+  Borland- SILK performer 
+    
+
+
+* test management tool- STLC - s/w testing life cycle -managing the entire STLC 
+
+  HP- QC/ALM
+  bugzilla (open source tool)
+  test directory
+
+- Reqs gathering & analysis
+- Test plan
+- test development
+-test environment
+- test execution
+-defect tracking
+-test closure 
+ 
+
+
+IRCTC
+
+version 2.0
+
+login
+reg
+search
+
+version 2.1
+
+book
+PNR
+cancellation 
+
+* book
+
+1. from & to 
+2. date
+3. no of tickets
+4. specification
+5.chrome ,ie,firefox
+6.secured- right click,copy,paste ,session timeout,password access - restriction
+7.language
+8.platform
+9.cocncurrent users-1 lk
+
+
+Principles of testing 
+
+- Testing shows presence of defect
+
+- exhaustive testing is impossible 
+
+- defect clustering 
+
+- as early as SDLC 
+
+- testing is context dependant 
+
+- Pesticide paradox 
+
+- absence of error fallacy
+
+QA                
+
+- process oriented - process than product 
+-documentation 
+
+-prevention team-proactive team 
+
+-verfication - are we building the product right - during the developement of the appln 
+
+-reviews
+
+
+
+-assuring the client 
+
+
+ QC 
+
+-product oriented 
+-reduction team
+-validation - are we building the right product 
+
+- after the development fo the appln 
+
+   
+
+testing types
+1. static testing - verification -techniques
+ reviews
+2. dynamic testing -validation 
+
+  1.structural based testing or WBT 
+  * statement coverage
+  * decision coverage
+  * condition coverage
+  * cylomatic complexity 
+  2.functional based testing or BBT
+  * equivalance partioning 
+  * boundary value analysis 
+  * decision table testing 
+  *state transition testing 
+  3.experienced based testing
+  * error guessing 
+  * exploration testing 
+
+ when to start & stop testing 
+
+- as early as SDLC
+
+- when there is a appln with 99.9% defect free
+- major / critcal reqs are working 
+- budget is over 
+
+
+STLC - s/w testing life cycle
+
+SDLC 
+- req gathering- information from client to orgn (business analyst) 
+  SME -subject matter expert  
+
+ modes 
+ - self based 
+ - class room training 
+ - calls - conference calls 
+
+- req analysis - understand the reqs - can we develop the appln - implement the appln 
+
+-feasible to implement the reqs 
+-checklist 
+* correntness
+* completeness
+* consistency
+* reduntancy
+* discreperancy
+
+
+outcome - SRS
+
+Design 
+
+- HLD-high level design/system design document 
+
+- 
+
+- LLD-low level design/detailed design document 
+
+
+outcome - CDD
+
+build -programming lang to develop the appln 
+
+testing 
+ER=AR
+
+
+deployment 
+- 
+
+
+STLC
+- Reqs gathering & analysis
+- Test plan
+- test development
+-test environment
+- test execution
+-defect tracking
+-test closure 
+ 
+
+Test plan document - roadmap for testing activity -test managers 
+
+- word docs
+- test management tool
+
+1. what- what to test 
+   what are the reqs to be tested 
+  
+   -Test Scope 
+  * in-scope - what are the reqs to be tested 
+  * out-scope- what are the reqs not to be tested 
+
+  IRCTC
+  functional - atos syntel
+  non functional - xxx orgn 
+
+ version 2.0
+
+login
+reg
+search
+
+version 2.1
+
+book
+PNR
+cancellation 
+
+2. who
+
+  Resource will test 
+ -Resource ,staffing & needs 
+
+
+3. when
+  -Test Schedule -timings
+  
+4. where
+
+  - Test Environment
+   * h/w ,s/w , tools required for testing  
+
+5. how
+
+  - decision of manual or automation testing 
+
+6. test delieverables
+
+ - docs delievered after testing is completed 
+ * test plan
+ * test devcelopemnt - test scenario , test cases 
+ * test environment 
+ * test execution 
+ * defect tracking 
+ * test closure
+ * RTM
+
+7. risk analysis 
+
+- occurrence of possibility of defect may happen to appln 
+
+- providing soln to risk 
+
+
+* contingency - 
+* mitgation 
+
+8.entry & exit creteria 
+
+- when we can get into the area
+- when we can move it of the area 
+
+9. suspension & resumption 
+
+stop - becuase there is no mesaning in testing -
+everything  to be failed 
+
+continue from where you have stopped - fixed - reduce the level of defect 
+
+
+Test development 
+
+execution of what is planned 
+
+-preparation done for executing what is planned in test plan document 
+
+- test scenario
+
+-test cases design & test case execution 
+
+Test Scenario
+
+- high level of testing 
+- end to end testing 
+-overall testing 
+
+
+cancellation in irctc 
+
+- user cancellation
+- waiting list cancellation 
+- train itself is cancelled 
+
+login
+
+-valid us & valid pswd
+-invalid us & invalid pswd
+-valid us& invalid pswd
+-invalid us & valid pswd
+
+
+test sceanrio - testers 
+
+- excel appln
+-test mgmt tool
+
+
+- techniques
+
+- use case diagram
+- ACE activity component element 
+
+ 
+
+Test Cases design & execution - testers 
+
+Prepare to check ER=AR 
+
+- excel appln
+-test mgmt tool
+
+types
+1. positive - what the system should do for users 
+2.negative - what system should not do 
+3. exception - valid turns to be invliad after expire period 
+4.alternative -alternative option to reach req 
+
+
+test case follow
+
+1. field level
+2. form level 
+
+SRS
+
+login 
+req 1.1 username- accepts alphabets min 8 to max 15 chars 
+req1.2 password - accepts any value -encrypted 
+req1.3 button - navigate to acc when valid username & password is provided 
+
+user cancellation 
+req1.1 - providing PNR number- alphanumeric with 8 digit 
+req1.2 - clicking - confirmation -popup 
+req1.3- meesage - ticket cancelled 
+req1.4- message - refund about amt 
+req1.4 - check whether cancelled ticket 
+
+
+
+8 to 15 - techniques 
+
+
